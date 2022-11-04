@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="sdd.jpeg" />
+  <title>Sarvagya Bansal Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+<style>
+/* display background color black on navbar scroll */
+
+button {
+        text-decoration: none;
+        /* display: block; */
+        color: rgb(0, 0, 0);
+        background-color: rgb(2 170 255);
+        border-radius: 20px;
+        text-align: center;
+        margin: 13px auto;
+        padding: 0px;
+        border: transparent;
+        position: relative;
+        /* width: 29%; */
+        height: 46px;
+        font-size: x-large;
+        top: -11px;
+        left: 2px;
+    }
+
+button:hover {
+        background-color: aliceblue;
+
+    }
+
+    button:active {
+        background-color: rgb(140, 201, 255);
+    }
+
+
+#link1 {
+        color: #000;
+        text-align: left;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    button #ei {
+
+
+color: #000;
+text-align: left;
+font-weight: bolder;
+text-decoration: none;
+
+padding: 13px;
+position: relative;
+
+height: 46px;
+
+}
+
+
+#e{
+    
+      
+      margin: 0;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #010000;
+      text-align: left;
+      background-color: #808080;
+  
+        height:55vh;
+        
+        background-size:cover;
+      position:relative;
+      
+}
+
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('123.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    border-radius: 36px;
+    height: 50vh;
+}
+
+/* services section css */
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover ,.fa-facebook-messenger:hover,.fa-github:hover,.fa-google:hover,.fa-youtube:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+</style>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+         
+            <a class="navbar-brand" href="#">SARVAGYA BANSAL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Internship Experiences</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Info</a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me Sarvagya </h2>
+                <p class="hero_desc">I am a Student</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="1234.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> My name is Sarvagya , and I’m a computer science Student 
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Sarvagya Bansal</li>
+                                <li>Age: 21</li>
+                                <li>Current Education: Bachelor of Technology - Computer Science and Engineering (2024)</li>
+
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="row mt-3">
+                        <p> I am passionate about learning, implementing, and integrating with new technologies to excel in the field of computer science, always eager and ready to accept challenges, responsibility and learn new skills. A smart, energetic and a fast learner with a creative mindset to do well both as an individual contributor as well as along with a team player under pressure or deadlines for effective results. Always having the zeal and determination to get the job done. I love to work in new teams, know different kind of people and explore the territories which have not been touched by any human beings till now. On a mission to discover new things everyday and bring newness to this world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+    <br>
+    <!-- <section id="services"> -->
+        <div class="container">
+            <h1 class="text-center">Internship Experiences</h1>
+   
+            
+
+
+
+            
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Data Science Intern</h4>
+                            <p class="card-text mt-3">Used complex machine learning algorithms to build predictive model for Fake News Detection that deals with vast volumes of
+                                data using modern tools and techniques to find unseen patterns
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">GoogleCloudReady Facilitator Program </h4>
+                            <h6 class="text-center">Apprenticeship</h6>
+                            <p class="card-text mt-3">Practiced & learned concepts like cloud computing, application development, big data & machine learning using Google Cloud’s
+                                training platform called Qwiklabs 
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+
+            <br>
+<br>
+                <section id="services">
+                    <div class="container">
+                        <h1 class="text-center">Certifications</h1>
+                        <div class="row">
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Google Data Analytics</h4>
+                            <h6 class="text-center">Issued By Courcera</h6>
+
+                            <p class="card-text mt-3">It Introduced to the world of data analytics through hands-on curriculum developed by Google. It covered plenty of key data analytics topics, and it’s designed to give an overview of what Data Analytics is.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">IBM Data Science Foundations - Level 1 & Level 2</h4>
+                            <h6 class="text-center">Issued By  Cognitive class</h6>
+                            <p class="card-text mt-3">Helped in understanding tools, methodologies  and programming languages to use in Data science tasks.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">Architecting with Google Compute Engine</h4>
+                            <h6 class="text-center">Issued By Courcera</h6>
+                            <p class="card-text mt-3"> It introduced important concepts and terminology for working with Cloud. Through videos and hands-on labs along with important resource and policy management tools.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+  
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Info</h1>
+<br>
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;"><div id="googlemaps-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Jaipur+House,+Goalpura,+Agra,+Uttar+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlemaps-code" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a><style>#googlemaps-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+                </div>
+                <div class="col-lg-6">
+                    <img id="e" src="lll.png" alt="">
+
+<br>
+<br>
+                <b>    Phone: 8909411042, 9411923790
+                    <br>
+                    <br>
+                    Email: sarvagyaban@gmail.com, sarvagya.bansal_cs20@gla.ac.in
+                    <br>
+                    <br>
+                    Address: 212-B Jaipur House, Agra- 282002
+                </b> <div>
+             
+            </div>
+                <div class="container-fluid">
+                    <div class="social-icons mt-4">
+                        <a href="https://www.facebook.com/sarvagya.bansal" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/sarvagya.bansal" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+
+                        <a href="https://www.instagram.com/bansal.sarvagya/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sarvagya-bansal" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Sarvagyaban" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.cloudskillsboost.google/public_profiles/7b33387f-8d92-4f9f-9cd1-9883a7ddc5af" target="_blank"><i class="fab fa-google"></i></a>
+
+
+                        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+        
+
+<br><br><br><br><br> <br><br><br><br> <br><br><br><br>
+<b> Portfolio Designed By Sarvagya Bansal </b> </div>
+        </div>
+
+
+
+</body>
+
+</html>
