@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="shortcut icon" href="sdd.jpeg" />
   <title>Sarvagya Bansal Portfolio</title>
+  <link rel="icon" type="images/x-icon" href="https://c8.alamy.com/comp/2B07C4E/initial-letter-sb-logo-design-vector-template-sb-letter-logo-design-2B07C4E.jpg" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
-  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
 </head>
 <style>
-/* display background color black on navbar scroll */
 
 button {
         text-decoration: none;
@@ -88,14 +85,12 @@ height: 46px;
     background-color: black;
 }
 
-/* hero background image */
 .bgimage {
     height:100vh;
     background: url('123.jpg');
     background-size:cover;
     position:relative;
 }
-/* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
 }
@@ -110,23 +105,15 @@ height: 46px;
     transform: translate(-50%, -50%);
     color: white;
 }
-
-/* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-} */
 #contact {
     padding-bottom: 4rem;
 }
-/* about section image css */
 .imageAboutPage {
     width: 100%;
     border-radius: 36px;
     height: 50vh;
 }
 
-/* services section css */
 
 .servicesText.card {
     height: 280px;
@@ -147,7 +134,6 @@ height: 46px;
     border: 1px solid #008000;
 }
 
-/* social media icons styling */
 .social-icons {
     font-size: 36px;
     cursor: pointer;
@@ -158,17 +144,14 @@ height: 46px;
 .fab {
     color: #000000;
 }
-/* footer styling */
 #footer {
     background-color: #808080;
     text-align: center;
 }
 </style>
 <body>
-    <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
-        <div class="container">
-         
+        <div class="container">  
             <a class="navbar-brand" href="#">SARVAGYA BANSAL</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -178,15 +161,18 @@ height: 46px;
                     <li class="nav-item active">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
-                    
-
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Internship Experiences</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services1">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services2">Project Details</a>
+                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact Info</a>
@@ -197,7 +183,6 @@ height: 46px;
             </div>
         </div>
     </nav>
-    <!-- main banner -->
     <section class="bgimage" id="home">
         <div class="container-fluid">
             <div class="row">
@@ -209,7 +194,6 @@ height: 46px;
         </div>
     </section>
 
-    <!-- about section-->
     <section id="about">
         <div class="container mt-4 pt-4">
             <h1 class="text-center">About Me</h1>
@@ -219,11 +203,11 @@ height: 46px;
                 </div>
 
                 <div class="col-lg-8">
-                    <p> My name is Sarvagya , and I’m a computer science Student 
+                    <p> My name is Sarvagya , and I'm a computer science Student 
                         
                     </p>
                     <div class="row mt-3">
-                        <div class="col-md-6">
+                        <div class="col-md-10">
                             <ul>
                                 <li>Name: Sarvagya Bansal</li>
                                 <li>Age: 21</li>
@@ -244,41 +228,31 @@ height: 46px;
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            
     </section>
-
-    <!-- services section-->
     <br>
     <section id="services">
         <div class="container">
-            <h1 class="text-center">Internship Experiences</h1>
-   
-            
-
-
-
-            
+            <h1 class="text-center">Internship Experiences</h1><br>
             <div class="row">
-                <div class="col-lg-4 mt-4">
+                <div class="col-lg-6 mt-1">
                     <div class="card servicesText">
                         <div class="card-body">
                             <i class="fas servicesIcon fa-clock"></i>
                             <h4 class="card-title mt-3">Data Science Intern</h4>
+                            <h6 class="text-center">Acmegrade </h6>
                             <p class="card-text mt-3">Used complex machine learning algorithms to build predictive model for Fake News Detection that deals with vast volumes of
                                 data using modern tools and techniques to find unseen patterns
                             </p>
                         </div>
                     </div>  
                 </div>
-                <div class="col-lg-4 mt-4">
+                <div class="col-lg-6 mt-1">
                     <div class="card servicesText">
                         <div class="card-body">
                             <i class='fas servicesIcon fa-layer-group'></i>
                             <h4 class="card-title mt-3">GoogleCloudReady Facilitator Program </h4>
-                            <h6 class="text-center">Apprenticeship</h6>
+                            <h6 class="text-center">Apprenticeship Program</h6>
                             <p class="card-text mt-3">Practiced & learned concepts like cloud computing, application development, big data & machine learning using Google Cloud’s
                                 training platform called Qwiklabs 
                             </p>
@@ -290,7 +264,7 @@ height: 46px;
 
             <br>
 <br>
-                <section id="services">
+                <section id="services1">
                     <div class="container">
                         <h1 class="text-center">Certifications</h1>
                         <div class="row">
@@ -335,14 +309,47 @@ height: 46px;
             </div>
         </div>
     </section>
+    <br>
+    <br>
+    <section id="services2">
+        <div class="container">
+            <h1 class="text-center">Projects Details</h1><br>
+            <div class="row">
+                <div class="col-lg-6 mt-1">
+                    <a href="https://sarvagyaban.github.io/Codeline/build/" target="_blank" style="color: #000;text-decoration:none">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fa-solid servicesIcon fa-code fa-beat-fade" style="color: #000000;"></i>
+                            <h4 class="card-title mt-3">Codeline</h4>
+                            <h6 class="text-center">React-JS</h6>
+                            <p class="card-text mt-3" style="outline:none">A compiler of HTML, CSS and JavaScript alongside a single setup and the output is obtained at once without the need of creating separate repositories for accessing them.</p>
+                        </div>
+                    </div> </a> 
+                </div>
+                <div class="col-lg-6 mt-1">
+                    <a href="https://github.com/Sarvagyaban/NewsApp" target="_blank" style="color: #000;text-decoration:none">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fa-solid servicesIcon fa-newspaper fa-beat-fade fa-sm" style="color: #000000 ;margin-top: 15px"></i>
+                            <h4 class="card-title mt-3">News-Boy</h4>
+                            <h6 class="text-center">React-JS and Bootstrap</h6>
+                            <p class="card-text mt-3" style="outline:none">An application which will display news articles to user in various categories (such as Business, Health, Technology etc.) used a free News-Api for fetching the latest news.</p>
+                        </div>
+                    </div> </a> 
+                </div>
+                
+            </div>
+            
+            
 
     <br>
+    <br>
+
   
-    <!-- contact section-->
     <section id="contact">
         <div class="mt-3z contactContent">
             <h1 class="text-center">Contact Info</h1>
-<br>
+            <br>
             <div class="row mt-4">
                 <div class="sa">
                     <div style="max-width:100%;overflow:hidden;color:red;width:auto;height:500px;">
